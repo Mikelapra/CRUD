@@ -1,0 +1,17 @@
+### Obtener todas las publicaciones
+
+GET http://localhost:3000/usuarios
+
+### Obtener una información de un usuario concreto
+
+GET http://localhost:3000/usuarios/Ryu
+
+### Añadir usuario al objeto
+POST http://localhost:3000/usuarios
+Content-Type: application/json
+
+{ "nombre": "Pedro", "edad": 32, "lugarProcedencia": "España" }
+
+### Eliminar usuario
+
+DELETE http://localhost:3000/usuarios/Pedro
